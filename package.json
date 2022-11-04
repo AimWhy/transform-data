@@ -7,14 +7,14 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/AimWhy/transform-data"
   },
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/AimWhy/transform-data/issues"
   },
   "license": "MIT",
   "author": "aimWhy",
-  "funding": "https://github.com/",
+  "funding": "https://github.com/AimWhy/transform-data",
   "engines": {
     "node": ">= 16"
   },

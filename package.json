@@ -56,7 +56,7 @@
     "build": "npm run lint && rollup -c --silent",
     "dist": " npm run build && mkdir dist && cp -fR build/*.* dist/ && npm run types",
     "lint": "eslint src/** rollup.config.mjs",
-    "prepublishOnly": "npm run dist",
+    "prepublishOnly": "npm run clean && npm run dist",
     "clean": "del-cli --force build dist docs",
     "types": "tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outfile dist/transform-data.module.d.ts"
   }

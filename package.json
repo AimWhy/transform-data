@@ -4,7 +4,7 @@
   "description": "transform-data",
   "homepage": "",
   "type": "module",
-  "keywords": [],
+  "keywords": ["dataTransform", "接口数据", "aimwhy", "转换"],
   "repository": {
     "type": "git",
     "url": "https://github.com/AimWhy/transform-data"

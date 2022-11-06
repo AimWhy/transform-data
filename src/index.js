@@ -63,7 +63,7 @@ function genPatternData(pattern, recordMap, path = "", referBase = "") {
         const retainKeySet = new Set(pattern[Retain]);
         const allKeys = Object.keys(result);
         allKeys.forEach((removeKey) => {
-          if (retainKeySet.has(removeKey)) {
+          if (!retainKeySet.has(removeKey)) {
             delete result[removeKey];
           }
         });
